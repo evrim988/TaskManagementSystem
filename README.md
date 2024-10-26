@@ -3,11 +3,12 @@
 Bu proje, üye olan kullanıcıların diğer kullanıcılara görev atayabilmesini sağlayan 
 bir restful-api ile yazılan bir BackEnd projesidir.
 
+-------------------
 ### Kullanılan Teknolojiler;
 * Spring Boot
 * Hibernate
 * PostgreSQL
-
+--------------------------
 ### Projenin Özellikleri;
 * Bu projede JWT Token kullanılmıştır. Kullanıcı kayıt olduktan sonra login olur 
 ve elimize bir token geçer. Bu token sayesinde kullanıcının kim olduğuna erişebiliriz.
