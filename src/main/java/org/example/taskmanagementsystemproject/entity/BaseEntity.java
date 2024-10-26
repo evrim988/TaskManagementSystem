@@ -33,10 +33,7 @@ public class BaseEntity {
     @UpdateTimestamp
     LocalDateTime updatedOn;
 
-    @Builder.Default
-    ObjectStatus objectStatus = ObjectStatus.NONDELETED;
-    // silinip silinmediği durumu - default değer olarak silinmemiş olarak ayarladım
-
+    @Enumerated(EnumType.STRING)
     @Builder.Default
     Status status = Status.ACTIVE;
     //aktif mi pasif mi olduğu durum - default değer olarak active olarak ayarladım.
