@@ -1,6 +1,6 @@
 # Görev Yönetim Sistemi
 
-Bu proje, üye olan kullanıcıların, diğer kullanıcılara görev atayabilmesini sağlayan 
+Bu proje; üye olan kullanıcıların, diğer kullanıcılara görev atayabilmesini sağlayan 
 bir restful-api ile yazılan bir BackEnd projesidir.
 
 -------------------
